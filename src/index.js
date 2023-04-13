@@ -18,7 +18,7 @@ import {
 // Rutas/URLs
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/SuperMarket",
     element: <Inicio />
   }
 ]);

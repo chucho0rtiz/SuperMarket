@@ -1,21 +1,21 @@
+/* carrusel del componente carrusel */
 .carrusel {
     margin: 0 1.5em 0 1.5em;
 }
 
+/* pagina de inicio */
 .contenido {
     margin: 5em 1.5em 5em 1.5em;
-    padding: 5px;
+    padding: 2em;
     border-style: groove;
 }
 
-.contenidoTitulo {
-    text-align: center;
-}
-
+.contenidoTitulo,
 .contenidoParrafo {
     text-align: center;
 }
 
+/* estilos del componente footer */
 .redSocial>svg {
     width: 2em;
     height: 2em;

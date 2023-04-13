@@ -27,13 +27,13 @@ function NavBar() {
                 <Collapse isOpen={isOpen} pills navbar>
                     <Nav className="mr-auto" pills navbar>
                         <NavItem>
-                            <NavLink href="/">Inicio</NavLink>
+                            <NavLink href="/SuperMarket">Inicio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">Productos</NavLink>
+                            <NavLink href="/Productos">Productos</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">Contactenos</NavLink>
+                            <NavLink href="/Contactenos">Contactenos</NavLink>
                         </NavItem>
                     </Nav>
                     <Nav className="mr-auto" navbar>

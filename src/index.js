@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 // Imports vistas creadas
 import Inicio from './views/inicio';
+import Productos from './views/Productos';
 
 // imports externos
 // import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js';
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/SuperMarket",
     element: <Inicio />
+  },
+  {
+    path: "/Productos",
+    element: <Productos />
   }
 ]);
 

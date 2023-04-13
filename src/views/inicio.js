@@ -36,7 +36,6 @@ function Inicio() {
                         xplicabo.  Sed ut perspiciatis unde omnis  explicabo.
                     </p>
                 </div>
-
             </div>
             <Footer />
         </div >

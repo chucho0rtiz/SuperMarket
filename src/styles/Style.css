@@ -1,0 +1,22 @@
+.carrusel {
+    margin: 0 1.5em 0 1.5em;
+}
+
+.contenido {
+    margin: 5em 1.5em 5em 1.5em;
+    padding: 5px;
+    border-style: groove;
+}
+
+.contenidoTitulo {
+    text-align: center;
+}
+
+.contenidoParrafo {
+    text-align: center;
+}
+
+.redSocial>svg {
+    width: 2em;
+    height: 2em;
+}

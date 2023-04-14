@@ -23,7 +23,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
@@ -31,7 +34,10 @@ function Productos() {
                     </div>
                     <p class="descripcion" id>Nombre del producto </p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
@@ -39,7 +45,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
             </div>
             <div class="fila">
@@ -49,7 +58,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
@@ -57,7 +69,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
@@ -65,7 +80,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
             </div> 
             <div class="fila">
@@ -75,7 +93,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
@@ -83,7 +104,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
@@ -91,7 +115,10 @@ function Productos() {
                     </div>
                     <p class="descripcion">Nombre del producto</p>
                     <p class="precio">Precio: $x.xxx</p>
+                    <div>
+                    <button id='btnDetalle' class="btn btn-outline-success my-2 my-sm-0" type="submit">Detalle</button>
                     <button id='btnComprar' class="btn btn-outline-success my-2 my-sm-0" type="submit">Comprar</button>
+                    </div>
                 </div>
             </div> 
         </div>

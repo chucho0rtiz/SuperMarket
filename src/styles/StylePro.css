@@ -1,3 +1,4 @@
+/* Estilo de la vista */
 *{
     margin: 0;
     padding: 0;
@@ -5,14 +6,15 @@
     font-family: 'Open Sans';
 }
 
+/* Imagen principal */
 #img {
     width: 100%;
     height: 400px;
-    border-radius: 5px;
     padding: 10px;
     border: 1px solid #ccc; 
 }
 
+/* Buscador y boton para filtrar */
 #div1{
     margin: 0.5%;
     width: 100%;
@@ -29,6 +31,7 @@
     border-color: black;
 }
 
+/* Contenedor de productos */
 .contenido{
     max-width: 90%;
     width: 100%;
@@ -42,6 +45,7 @@
     margin-bottom: 40px;
 }
 
+/* Matriz */
 .mostrador .fila .item{
     max-width: 400px;
     padding: 30px;
@@ -52,25 +56,35 @@
     border-radius: 5px;
 }
 
+/* Img del producto */
 .mostrador .fila .item img{
     width: 100%;
     margin: 30px 0;
 }
 
+/* Nombre del producto */
 .mostrador .fila .item .descripcion{
     color: #010101;
     font-weight: bold;
 }
 
+/* precio card */
 .mostrador .fila .item .precio{
     color: #ef0404;
     font-weight: bold;
     font-size: 20px;
 }
 
+/* Boton de comprar */
 #btnComprar {
     height: 15%;
     width: 30%;
     border-radius: 5px;    
 }
 
+#btnDetalle {
+    height: 15%;
+    width: 30%;
+    border-radius: 5px;
+    margin-right: 20%;
+}

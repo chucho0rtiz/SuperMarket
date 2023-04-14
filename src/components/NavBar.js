@@ -1,7 +1,6 @@
-import React from 'react';
 import '../styles/Style.css'
 import logo from '../img/Logo1.png';
-import { memo } from "react";
+import React, { memo, useState } from "react";
 import {
     Navbar,
     NavItem,
@@ -11,9 +10,13 @@ import {
     Nav,
     NavbarBrand
 } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 function NavBar() {
     const [isOpen, setIsOpen] = React.useState(false);
+    const [modal, setModal] = useState(false);
+    const toggle = () => setModal(!modal);
+
     return (
         <div>
             <Navbar color="light" light expand="md">
@@ -41,7 +44,32 @@ function NavBar() {
                             <NavLink href="/">Crear cuenta</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">Ingresar</NavLink>
+                            <NavLink>
+                                <Button color="danger" onClick={toggle}>
+                                    Click Me
+                                </Button>
+                                <Modal isOpen={modal} toggle={toggle}>
+                                    <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+                                    <ModalBody>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                    </ModalBody>
+                                    <ModalFooter>
+                                        <Button color="primary" onClick={toggle}>
+                                            Do Something
+                                        </Button>{' '}
+                                        <Button color="secondary" onClick={toggle}>
+                                            Cancel
+                                        </Button>
+                                    </ModalFooter>
+                                </Modal>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/">carrito</NavLink>

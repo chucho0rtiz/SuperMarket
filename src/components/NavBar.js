@@ -41,12 +41,15 @@ function NavBar() {
                     </Nav>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="/">Crear cuenta</NavLink>
+                            <NavLink>
+                                Crear cuenta
+                            </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink>
+                                {/* inicio de sesion  */}
                                 <Button color="danger" onClick={toggle}>
-                                    Click Me
+                                    Iniciar sesion
                                 </Button>
                                 <Modal isOpen={modal} toggle={toggle}>
                                     <ModalHeader toggle={toggle}>Modal title</ModalHeader>
@@ -69,6 +72,7 @@ function NavBar() {
                                         </Button>
                                     </ModalFooter>
                                 </Modal>
+                                {/* fin inicio de sesion  */}
                             </NavLink>
                         </NavItem>
                         <NavItem>

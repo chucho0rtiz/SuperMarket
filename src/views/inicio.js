@@ -1,6 +1,5 @@
 // import '../styles/Style.css';
-import NavBar from '../components/NavBar';
-// import NavBar2 from '../components/NavBar2';
+import NavBar2 from '../components/NavBar2';
 import Carrusel from "../components/Carrusel";
 import Footer from '../components/Footer';
 
@@ -10,7 +9,7 @@ function Inicio() {
 
     return (
         <div>
-            <NavBar />
+            <NavBar2 />
             <Carrusel />
             <div className='contenidoInicio'>
                 <div className='contenidoTituloInicio'>

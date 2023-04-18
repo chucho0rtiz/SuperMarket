@@ -1,11 +1,11 @@
 import '../styles/StylePro.css';
-import NavBar from '../components/NavBar';
+import NavBar2 from '../components/NavBar2';
 import Footer from '../components/Footer';
 import CardProducto from '../components/CardProducto';
 function Productos() {
     return (
         <div>
-            <NavBar />
+            <NavBar2 />
 
             <img id='img' src='https://picsum.photos/id/123/1200/400' alt='' />
 

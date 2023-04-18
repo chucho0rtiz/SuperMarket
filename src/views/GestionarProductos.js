@@ -1,6 +1,7 @@
 import '../styles/StylePro.css';
 import React, { useState } from 'react';
-import NavBarHome from '../components/NavBarHome';
+// import NavBarHome from '../components/NavBarHome';
+import NavBar2Home from '../components/NavBar2Home';
 import Footer from '../components/Footer';
 import CardProductosEdit from '../components/CardProductosEdit';
 import {
@@ -17,7 +18,7 @@ function GestionarProductos() {
     const toggleC = () => setModalC(!modalC);
     return (
         <div>
-            <NavBarHome />
+            <NavBar2Home />
 
             {/* <img id='img' src='https://picsum.photos/id/123/1200/400' alt='' /> */}
 

@@ -21,7 +21,25 @@
     height: 2em;
 }
 
+.colorfooter>section {
+    background-color: #451ef140;
+}
+
 /* estilos del componente NavBar */
+
+.NavBarStyle>li>a {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.NavBarStyle>li {
+    border: 1px solid rgb(4, 4, 4, 0.12);
+}
+
+.NavBarStyle {
+    background: linear-gradient(#451ef140, 75%, #fff);
+}
+
 
 .TituloInicioSes {
     justify-content: center !important;

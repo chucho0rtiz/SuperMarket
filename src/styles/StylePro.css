@@ -1,5 +1,5 @@
 /* Estilo de la vista */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,13 +11,13 @@
     width: 100%;
     height: 400px;
     padding: 10px;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
 }
 
 /* Buscador y boton para filtrar */
-#div1{
-    margin: 0.5%;
-    width: 100%;
+#div1 {
+    margin: 1em auto 2em auto;
+    width: 50%;
 }
 
 #buscador {
@@ -27,18 +27,18 @@
 
 #boton_buscar {
     width: 10%;
-    margin:45%;
+    margin: 45%;
     border-color: black;
 }
 
 /* Contenedor de productos */
-.contenido{
+.contenido {
     max-width: 90%;
     width: 100%;
     margin: auto;
 }
 
-.mostrador .fila{
+.mostrador .fila {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -46,31 +46,40 @@
 }
 
 /* Matriz */
-.mostrador .fila .item{
-    max-width: 400px;
-    padding: 30px;
-    height: 350px;
-    border: 2px solid rgb(4, 4, 4);
+.mostrador .fila .item {
+    max-width: 300px;
+    padding: 15px;
+    height: 370px;
+    border: 2px solid rgb(4, 4, 4, 0.12);
     text-align: center;
     margin: 0 10px;
     border-radius: 5px;
 }
 
 /* Img del producto */
-.mostrador .fila .item img{
+.contenedor-foto {
     width: 100%;
-    margin: 30px 0;
+    height: 180px;
+    margin-bottom: 1.5em;
+}
+
+.mostrador .fila .item img {
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Nombre del producto */
-.mostrador .fila .item .descripcion{
+.mostrador .fila .item .descripcion {
     color: #010101;
     font-weight: bold;
 }
 
 /* precio card */
-.mostrador .fila .item .precio{
-    color: #ef0404;
+.mostrador .fila .item .precio {
+    color: #5735f1;
     font-weight: bold;
     font-size: 20px;
 }
@@ -79,7 +88,9 @@
 #btnComprar {
     height: 15%;
     width: 30%;
-    border-radius: 5px;    
+    border-radius: 5px;
+    color: #5735f1;
+    border-color: #5735f1;
 }
 
 #btnDetalle {
@@ -87,4 +98,18 @@
     width: 30%;
     border-radius: 5px;
     margin-right: 20%;
+    color: #5735f1;
+    border-color: #5735f1;
+}
+
+#remitonumero {
+    color: #5735f1;
+    border-color: #5735f1;
+}
+
+.botonColorM {
+    background-color: #451ef187 !important;
+    color: black !important;
+    font-weight: bold !important;
+
 }

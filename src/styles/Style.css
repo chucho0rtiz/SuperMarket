@@ -4,19 +4,77 @@
 }
 
 /* pagina de inicio */
-.contenido {
+.contenidoInicio {
     margin: 5em 1.5em 5em 1.5em;
     padding: 2em;
     border-style: groove;
 }
 
-.contenidoTitulo,
-.contenidoParrafo {
+.contenidoTituloInicio,
+.contenidoParrafoInicio {
     text-align: center;
 }
 
 /* estilos del componente footer */
-.redSocial>svg {
+.redSocialInicio>svg {
     width: 2em;
     height: 2em;
+}
+
+/* estilos del componente NavBar */
+
+.TituloInicioSes {
+    justify-content: center !important;
+}
+
+.TituloInicioSes>h5>h2 {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.modalInicioSes>.modal-content {
+    border-radius: 7% 7% 7% 7% !important;
+}
+
+.logoInicioSesion {
+    text-align: center;
+    margin: 1em 0em 1em 0em;
+}
+
+.TituloInicioSes>.btn-close {
+    display: none
+}
+
+.olvideCont {
+    text-decoration: none;
+    color: #5735f1;
+}
+
+.botonesInicioSes {
+    justify-content: center !important;
+}
+
+.botonColorM {
+    background-color: #451ef187 !important;
+    color: black !important;
+    font-weight: bold !important;
+
+}
+
+.botonColorN {
+    background-color: #EB7D44 !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.MdShoppingCart>svg {
+    width: 1.5em;
+    height: 1.5em;
+    color: #000;
+}
+
+.selecCat {
+    width: 50%;
+    border: 1px solid rgb(4, 4, 4, 0.12);
+    border-radius: 0 5px 5px 0;
 }

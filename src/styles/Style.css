@@ -30,6 +30,10 @@
 .NavBarStyle>li>a {
     color: #000 !important;
     font-weight: bold;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    padding-top: 15px;
 }
 
 .NavBarStyle>li {
@@ -76,7 +80,10 @@
     background-color: #451ef187 !important;
     color: black !important;
     font-weight: bold !important;
+}
 
+.botonColorM>a {
+    text-decoration: none;
 }
 
 .botonColorN {

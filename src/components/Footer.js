@@ -1,5 +1,4 @@
-import { memo } from "react";
-import '../styles/Style.css';
+// import '../styles/Style.css';
 import logo from '../img/Logo1.png';
 // import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 // import { TbBrandGmail } from 'react-icons/tb';
@@ -8,33 +7,6 @@ function Footer() {
     return (
         <div>
             <footer className="colorfooter text-center text-lg-start bg-light text-muted">
-                {/* <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                    <div className="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
-                    </div>
-
-                    <div>
-                        <a href="/SuperMarket" className="me-4 text-reset">
-                            <i className="FaFacebookSquare redSocialInicio"><FaFacebookSquare /></i>
-                        </a>
-                        <a href="/SuperMarket" className="me-4 text-reset">
-                            <i className="FaTwitterSquare redSocialInicio"><FaTwitterSquare /></i>
-                        </a>
-                        <a href="/SuperMarket" className="me-4 text-reset">
-                            <i className="SiGmail redSocialInicio"><TbBrandGmail /></i>
-                        </a>
-                        <a href="/SuperMarket" className="me-4 text-reset">
-                            <i className="FaInstagramSquare redSocialInicio"><FaInstagramSquare /></i>
-                        </a>
-                        <a href="/SuperMarket" className="me-4 text-reset">
-                            <i className="FaLinkedin redSocialInicio"><FaLinkedin /></i>
-                        </a>
-                        <a href="/SuperMarket" className="me-4 text-reset">
-                            <i className="FaGithubSquare redSocialInicio"><FaGithubSquare /></i>
-                        </a>
-                    </div>
-                </section> */}
-
                 <section className="">
                     <br />
                     <div className="container text-center text-md-start mt-5">
@@ -107,4 +79,4 @@ function Footer() {
 
 }
 
-export default memo(Footer); 
+export default Footer; 

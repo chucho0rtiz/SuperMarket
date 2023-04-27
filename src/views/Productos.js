@@ -1,15 +1,12 @@
 import '../styles/StylePro.css';
-import NavBar2 from '../components/NavBar2';
-import Footer from '../components/Footer';
 import CardProducto from '../components/CardProducto';
+
 function Productos() {
     return (
         <div>
-            <NavBar2 />
-
             <img id='img' src='https://picsum.photos/id/123/1200/400' alt='' />
 
-            <div id='div1' class="input-group">
+            <div id='div1' className="input-group">
                 <input id="buscador" type="search" className="form-control mr-sm-2" placeholder="Buscar" aria-label="Search" />
                 <button id='remitonumero' className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             </div>
@@ -41,9 +38,6 @@ function Productos() {
                     </div>
                 </div>
             </section>
-
-
-            <Footer />
         </div>
     );
 }

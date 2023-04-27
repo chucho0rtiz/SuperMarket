@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SuperMarket/static/css/main.86cb539b.css",
-    "main.js": "/SuperMarket/static/js/main.beec4455.js",
-    "static/js/787.b0236bfc.chunk.js": "/SuperMarket/static/js/787.b0236bfc.chunk.js",
-    "index.html": "/SuperMarket/index.html",
-    "main.86cb539b.css.map": "/SuperMarket/static/css/main.86cb539b.css.map",
-    "main.beec4455.js.map": "/SuperMarket/static/js/main.beec4455.js.map",
-    "787.b0236bfc.chunk.js.map": "/SuperMarket/static/js/787.b0236bfc.chunk.js.map"
+    "main.css": "/static/css/main.ded3c378.css",
+    "main.js": "/static/js/main.e00fcc30.js",
+    "static/js/787.b0236bfc.chunk.js": "/static/js/787.b0236bfc.chunk.js",
+    "index.html": "/index.html",
+    "main.ded3c378.css.map": "/static/css/main.ded3c378.css.map",
+    "main.e00fcc30.js.map": "/static/js/main.e00fcc30.js.map",
+    "787.b0236bfc.chunk.js.map": "/static/js/787.b0236bfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86cb539b.css",
-    "static/js/main.beec4455.js"
+    "static/css/main.ded3c378.css",
+    "static/js/main.e00fcc30.js"
   ]
 }

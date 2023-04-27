@@ -1,15 +1,10 @@
-// import '../styles/Style.css';
-import NavBar2 from '../components/NavBar2';
 import Carrusel from "../components/Carrusel";
-import Footer from '../components/Footer';
-
 
 function Inicio() {
 
 
     return (
         <div>
-            <NavBar2 />
             <Carrusel />
             <div className='contenidoInicio'>
                 <div className='contenidoTituloInicio'>
@@ -37,7 +32,6 @@ function Inicio() {
                     </p>
                 </div>
             </div>
-            <Footer />
         </div >
     );
 

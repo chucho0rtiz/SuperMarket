@@ -1,7 +1,5 @@
 import '../styles/StylePro.css';
 import React, { useState } from 'react';
-// import NavBarHome from '../components/NavBarHome';
-import NavBar2Home from '../components/NavBar2Home';
 import Footer from '../components/Footer';
 import CardProductosEdit from '../components/CardProductosEdit';
 import {
@@ -18,15 +16,9 @@ function GestionarProductos() {
     const toggleC = () => setModalC(!modalC);
     return (
         <div>
-            <NavBar2Home />
 
-            {/* <img id='img' src='https://picsum.photos/id/123/1200/400' alt='' /> */}
-
-            <div id='div1' class="input-group">
+            <div id='div1' className="input-group">
                 <input id="Crear" type="button" onClick={toggleC} className="form-control mr-sm-2 botonColorM" aria-label="Crear" value="Crear Producto" />
-                {/* <button id='Crear' onClick={toggleC} className="btn btn-outline-success my-2 my-sm-0" type="submit">
-                    Modificar
-                </button> */}
                 {/* Modal de Modificar */}
                 <Modal isOpen={modalC} toggle={toggleC}>
                     <div className="logoInicioSesion">

@@ -11,7 +11,7 @@ function CardProducto() {
     return (
         <div>
 
-            <div className="item" onclick="cargar(this)">
+            <div className="item">
                 <div className="contenedor-foto">
                     <img src="https://picsum.photos/id/123/1200/400" alt="" />
                 </div>
